@@ -1,7 +1,7 @@
 // set constants.
 const char ledBasePin=8;
 const char centreLedPin=7;
-const char switchPin=2;
+const char switchPin=5;
 const int debounceDelay=50;
 const int rollDelay=25;
 
