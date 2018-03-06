@@ -1,6 +1,6 @@
 # electronic-die
 
-This is an arduino project, built around an Arduino Nano board, to make a simple electronic die, which is intended for teaching beginners. There are four different versions of the code which controls the operation of the die (the firmware), which build up from a simple automatic counter to a complete electronic die with a visual rolling effect and random numbers. The idea is to start by looking at how the first version works, and then see how this is built on to make it do more complex things.
+This is a project, built around an Arduino Nano board, to make a simple electronic die, which is intended for teaching beginners. There are four different versions of the code which controls the operation of the die (the firmware), which build up from a simple automatic counter to a complete electronic die with a visual rolling effect and random numbers. The idea is to start by looking at how the first version works, and then see how this is built on to make it do more complex things.
 
 Each version is in a separate directory, in the normal format for an arduino project. See the [arduino website](https://www.arduino.cc/) for information on how to load the firmware onto the arduino Nano. For every version, there is an 'extension', which is something you can try yourself to change the way it works.
 
