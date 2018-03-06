@@ -1,7 +1,6 @@
 // set constants
 const char ledBasePin=8;
 const char centreLedPin=7;
-const char switchPin=2;
 
 // function declarations
 void showNumber(char number);
