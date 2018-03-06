@@ -1,6 +1,7 @@
 // set constants
 const char ledBasePin=8;
 const char centreLedPin=7;
+const int loopDelay=500;
 
 // global variables
 char number = 1;
@@ -8,7 +9,6 @@ char number = 1;
 void setup()
 {
   char i;
-  pinMode(switchPin, INPUT);
   pinMode(centreLedPin, OUTPUT);
   for (i=0; i<6; i=i+1) {
     pinMode(ledBasePin+i, OUTPUT);
@@ -74,7 +74,7 @@ void loop()
       break;
   }
   number=number+1;
-  delay(500);
+  delay(loopDelay);
   if (number>6) number=1;
 }
 

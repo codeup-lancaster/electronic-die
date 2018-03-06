@@ -1,6 +1,7 @@
 // set constants
 const char ledBasePin=8;
 const char centreLedPin=7;
+const int loopDelay=500;
 
 // function declarations
 void showNumber(char number);
@@ -11,7 +12,6 @@ char number;
 void setup()
 {
   char i;
-  pinMode(switchPin, INPUT);
   pinMode(centreLedPin, OUTPUT);
   for (i=0; i<6; i=i+1) {
     pinMode(ledBasePin+i, OUTPUT);
@@ -22,7 +22,7 @@ void loop()
 {
   number=random(1,7);
   showNumber(number);
-  delay(500);
+  delay(loopDelay);
 }
 
 void showNumber(char number)
