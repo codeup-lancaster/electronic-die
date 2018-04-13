@@ -17,3 +17,5 @@ In the top directory, there are some files which set out how to build the hardwa
 * **die-layout_schem.pdf** - a PDF of the schematics, in traditional format.
 * **die-layout_bb.pdf** - the schematics, laid out in Fritzing's breadboard view.
 * **die-layout_bom.html** - the bill of materials (parts list) in HTML format.
+
+The fritzing file is not quite right due to problems with the program, but you should be able to work out the logic of the connections from what I have got right.
